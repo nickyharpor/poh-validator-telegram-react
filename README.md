@@ -8,7 +8,7 @@ This component has to be used as a plugin within [Proof-of-Humanity-React](https
 
 ## Live dApp demo
 
-https://poh-counter.bakoush.in
+https://poh-counter.bakoush.in ([source code](https://github.com/bakoushin/poh-counter-example))
 
 ## Required props
 
