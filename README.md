@@ -1,8 +1,14 @@
 # Proof-of-Humanity Validator Plugin React Component for hCaptcha API
 
+[![NPM](https://img.shields.io/npm/v/poh-validator-hcaptcha-react)](https://www.npmjs.com/package/poh-validator-hcaptcha-react)
+
 React component providing the UI for [Proof-Of-Humanity hCaptcha validator API](https://github.com/bakoushin/poh-validator-hcaptcha-api).
 
 This component has to be used as a plugin within [Proof-of-Humanity-React](https://npmjs.com/packages/poh-react) wrapper component.
+
+## Live dApp demo
+
+https://poh-counter.bakoush.in
 
 ## Required props
 
@@ -35,10 +41,6 @@ const validator = (
 
 const { getProofOfHumanity } = useProofOfHumanity(validator);
 ```
-
-## Live dApp demo
-
-https://poh-counter.bakoush.in
 
 ## Hidden props
 
