@@ -57,9 +57,9 @@ These props are used internally by `poh-react`. Normally you don't bother workin
 ## See also
 
 - [Proof-of-Humanity-React](https://npmjs.com/packages/poh-react)
-- [Proof-of-Humanity hCaptcha Validator API](https://github.com/bakoushin/poh-validator-hcaptcha-api)
-- [Proof-of-Humanity Counter dApp](https://github.com/bakoushin/poh-counter-example)
-- [Proof-of-Humanity Solidity Contracts](https://github.com/bakoushin/poh-contracts)
+- [Proof-of-Humanity hCaptcha Validator API](https://hub.docker.com/r/bakoushin/poh-validator-hcaptcha)
+- [Proof-of-Humanity Solidity Contracts](https://npmjs.com/package/poh-contracts)
+- [Counter dApp Example](https://github.com/bakoushin/poh-counter-example)
 
 ## Author
 
