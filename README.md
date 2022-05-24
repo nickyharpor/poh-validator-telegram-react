@@ -56,6 +56,7 @@ These props are used internally by `poh-react`. Normally you don't bother workin
 
 ## See also
 
+- [Proof-of-HUMANity on-chain: protect your smart contracts from bots](https://www.humanprotocol.org/blog/proof-of-humanity-on-chain-protect-your-smart-contracts-from-bots)
 - [Proof-of-Humanity-React](https://npmjs.com/packages/poh-react)
 - [Proof-of-Humanity hCaptcha Validator API](https://hub.docker.com/r/bakoushin/poh-validator-hcaptcha)
 - [Proof-of-Humanity Solidity Contracts](https://npmjs.com/package/poh-contracts)
