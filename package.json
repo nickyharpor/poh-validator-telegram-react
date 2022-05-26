@@ -1,6 +1,6 @@
 {
   "name": "poh-validator-hcaptcha-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Proof-of-Humanity Validator Plugin React Component for hCaptcha API",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
