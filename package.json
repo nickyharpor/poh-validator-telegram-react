@@ -21,12 +21,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bakoushin/poh-validator-hcaptcha-react.git"
+    "url": "https://github.com/Human-Protocol/poh-validator-hcaptcha-react.git"
   },
   "bugs": {
-    "url": "https://github.com/bakoushin/poh-validator-hcaptcha-react/issues"
+    "url": "https://github.com/Human-Protocol/poh-validator-hcaptcha-react/issues"
   },
-  "homepage": "https://github.com/bakoushin/poh-validator-hcaptcha-react#readme",
+  "homepage": "https://github.com/Human-Protocol/poh-validator-hcaptcha-react#readme",
   "files": [
     "lib"
   ],
