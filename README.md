@@ -2,19 +2,19 @@
 
 [![NPM](https://img.shields.io/npm/v/poh-validator-hcaptcha-react)](https://www.npmjs.com/package/poh-validator-hcaptcha-react)
 
-React component providing the UI for [Proof-Of-Humanity hCaptcha validator API](https://github.com/bakoushin/poh-validator-hcaptcha-api).
+React component providing the UI for [Proof-Of-Humanity hCaptcha validator API](https://github.com/Human-Protocol/poh-validator-hcaptcha-api).
 
 This component has to be used as a plugin within [Proof-of-Humanity-React](https://npmjs.com/packages/poh-react) wrapper component.
 
 ## Live dApp demo
 
-https://poh-counter.bakoush.in ([source code](https://github.com/bakoushin/poh-counter-example))
+https://poh-counter.bakoush.in ([source code](https://github.com/Human-Protocol/poh-counter-example))
 
 ## Required props
 
 You have to provide these props:
 
-`validatorApiUrl` _(string)_ – URL of validator API. Validator API for use with this component: [Proof-of-Humanity hCaptcha Validator API](https://github.com/bakoushin/poh-validator-hcaptcha-api)
+`validatorApiUrl` _(string)_ – URL of validator API. Validator API for use with this component: [Proof-of-Humanity hCaptcha Validator API](https://github.com/Human-Protocol/poh-validator-hcaptcha-api)
 
 `sitekey` _(string)_ – [hCaptcha](https://www.hcaptcha.com/) sitekey. Must be obtained by registration on the hCaptcha site
 
@@ -60,7 +60,7 @@ These props are used internally by `poh-react`. Normally you don't bother workin
 - [Proof-of-Humanity-React](https://www.npmjs.com/package/poh-react)
 - [Proof-of-Humanity hCaptcha Validator API](https://hub.docker.com/r/bakoushin/poh-validator-hcaptcha)
 - [Proof-of-Humanity Solidity Contracts](https://npmjs.com/package/poh-contracts)
-- [Counter dApp Example](https://github.com/bakoushin/poh-counter-example)
+- [Counter dApp Example](https://github.com/Human-Protocol/poh-counter-example)
 
 ## Author
 
