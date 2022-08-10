@@ -29,7 +29,7 @@ You have to provide these props:
 ## Usage with `poh-react`
 
 ```jsx
-import hCaptchaValidator from 'poh-validator-hcaptcha';
+import hCaptchaValidator from 'poh-validator-hcaptcha-react';
 import { useProofOfHumanity } from 'poh-react';
 
 const validator = (
