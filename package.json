@@ -32,7 +32,8 @@
   ],
   "dependencies": {
     "@babel/runtime": "7.17.9",
-    "@hcaptcha/react-hcaptcha": "1.2.0"
+    "@hcaptcha/react-hcaptcha": "1.2.0",
+    "telegram-login-button": "^0.0.3"
   },
   "peerDependencies": {
     "react": ">=17.0.2",
