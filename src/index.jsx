@@ -15,11 +15,15 @@ function TelegramValidator({
       const proofUrl = validatorApiUrl + "/get_proof/" + user.id + "/" + minimalScore + "/" + data;
       const response = await fetch(proofUrl);
       if (response.ok) {
-        await fetch(validatorApiUrl + "/send_message/" + user.id + "/" + 2);
         const { proof } = await response.json();
-        onVerify({ error: false, errorMessage: null, proof });
+        if (proof) {
+          await fetch(validatorApiUrl + "/send_message/" + user.id + "/" + 2);
+          onVerify({ error: false, errorMessage: null, proof });
+        } else {
+          await fetch(validatorApiUrl + "/send_message/" + user.id + "/" + 1);
+          onVerify({ error: true, errorMessage: "not enough score", proof: null });
+        }
       } else {
-        await fetch(validatorApiUrl + "/send_message/" + user.id + "/" + 1);
         const errorMessage = `${response.status} ${response.statusText}`;
         onVerify({ error: true, errorMessage, proof: null });
       }
